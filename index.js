@@ -25,7 +25,7 @@ app.get('/proxy/imdb', async (req, res) => {
 // Proxy route for TMDB API (for movies)
 app.get('/proxy/tmdb/movie', async (req, res) => {
   const imdbId = req.query.imdbId;
-  const tmdbApiKey = 'YOUR_TMDB_API_KEY'; // Replace with your actual TMDB API key
+  const tmdbApiKey = 'b6b677eb7d4ec17f700e3d4dfc31d005'; // Replace with your actual TMDB API key
   const tmdbUrl = `https://api.themoviedb.org/3/find/${imdbId}?api_key=${tmdbApiKey}&language=en-US&external_source=imdb_id`;
   try {
     const response = await axios.get(tmdbUrl);
