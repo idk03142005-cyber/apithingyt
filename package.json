@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Proxy server for IMDb and TMDB APIs",
   "main": "index.js",
-  "type": "common.js"
+  "type": "common.js",
   "dependencies": {
     "axios": "^0.21.4",
     "cors": "^2.8.5",
